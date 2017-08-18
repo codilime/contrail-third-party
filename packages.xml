@@ -262,21 +262,6 @@
     <md5>c15dbcd2dbb8e254c1de0494c1bb8c91</md5>
   </package>
   <package>
-    <name>IF-MAP Python Client Library</name>
-    <url>https://github.com/ITI/ifmap-python-client/archive/master.zip</url>
-    <local-filename>ifmap-python-master.zip</local-filename>
-    <rename>ifmap-python-client</rename>
-    <format>zip</format>
-    <md5>372d7700a8e2c429c51deb11131a896d</md5>
-    <patches>
-      <patch strip="2">ifmap-python-patch1.diff</patch>
-      <patch strip="2">ifmap-python-patch2.diff</patch>
-      <patch strip="2">ifmap-python-patch3.diff</patch>
-      <patch strip="0">ifmap-python-async.patch</patch>
-      <patch strip="0">ifmap-python-patch4.diff</patch>
-    </patches>
-  </package>
-  <package>
     <name>Bottle Python Web Framework</name>
     <url>https://pypi.python.org/packages/source/b/bottle/bottle-0.11.6.tar.gz</url>
     <format>tgz</format>
@@ -391,5 +376,18 @@
     <patches>
       <patch strip="1">openvswitch.diff</patch>
     </patches>
+  </package>
+  <package>
+    <name>Go 1.8</name>
+    <url>https://storage.googleapis.com/golang/go1.8.linux-amd64.tar.gz</url>
+    <local-filename>go1.8.linux-amd64.tar.gz</local-filename>
+    <format>tgz</format>
+    <md5>d0f6de92ccef6489a0d9b8efbb8f577f</md5>
+  </package>
+  <package>
+    <name>Cni Go Deps</name>
+    <url>https://github.com/Juniper/contrail-third-party-cache/raw/master/cni/cni_go_deps.tar.gz</url>
+    <format>tgz</format>
+    <md5>823fcd824557fa0b6506e29d7591f76d</md5>
   </package>
 </packages>
